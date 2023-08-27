@@ -1,1 +1,5 @@
+cryptography
 madzpy
+maskpass
+termcolor
+web3==5.29.1 # this version is needed

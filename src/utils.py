@@ -12,3 +12,7 @@ def get_from_privkey(privkey : str):
         return w3.eth.account.privateKeyToAccount(privkey).address
     except:
         return False
+
+def is_address(address):
+    """Checks if the address is valid."""
+    return w3.isAddress(address)
